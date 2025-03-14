@@ -35,24 +35,15 @@
   margin-left: 10px;
 }
 
+.Weather canvas {
+  margin: 10px auto;
+}
+
 .Weather .unit {
   color: rgb(33, 33, 33);
   font-size: 16px;
   font-weight: 400;
   position: relative;
-  top: -34px;
-  margin-left: 5px;
   line-height: 1;
-}
-
-.Weather img {
-  height: 64px;
-  margin-right: 10px;
-  display: inline-block;
-  width: 64px;
-}
-
-.Weather .clearfix {
-  display: flex;
-  align-items: center; /* Aligns items vertically centered */
+  top: -34px;
 }
