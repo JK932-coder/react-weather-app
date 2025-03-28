@@ -7,3 +7,32 @@
     font-size: 11px;
     margin: 10px 0;
 }
+.temperature-container {
+  display: flex;
+  align-items: center; 
+  justify-content: flex-start; /* Ensures left alignment */
+  gap: 8px; /* Ensures space between the number and unit */
+}
+
+
+.temperature {
+  font-size: 48px; /* Adjust as needed */
+  font-weight: bold;
+  min-width: 80px; /* Ensures enough space for both Celsius and Fahrenheit */
+  text-align: right; /* Aligns number properly */ 
+}
+
+.unit {
+font-size: 18px; /* Keeps units smaller than the number */
+display: flex;
+align-items: center;
+gap: 4px;
+ white-space: nowrap; /* Prevents wrapping */
+}
+
+
+.unit a {
+  text-decoration: none;
+  margin-left: 3px;
+  font-size: 18px;
+}

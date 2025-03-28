@@ -1,0 +1,17 @@
+.WeatherInfo .d-flex {
+  display: flex;
+  align-items: center; /* Vertically center items */
+}
+
+.WeatherInfo .d-flex > * {
+  margin-right: 10px; /* Space between icon and temperature */
+}
+.list-inline {
+  padding: 0;
+  margin: 0;
+}
+
+.list-inline-item {
+  margin-right: 50px; /* Space between inline list items */
+}
+
