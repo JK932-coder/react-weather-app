@@ -36,3 +36,11 @@ gap: 4px;
   margin-left: 3px;
   font-size: 18px;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ebd6f1;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
